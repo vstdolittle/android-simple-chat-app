@@ -18,7 +18,7 @@ class ChatScreenActivity : AppCompatActivity(), ChatScreenView {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_chat_screen)
         ChatScreenConfigurator.configure(this)
-       // interactor.getSomething("param1", "param2")
+        interactor.getSomething("param1", "param2")
     }
     override fun displaySomething() {
         //display something
