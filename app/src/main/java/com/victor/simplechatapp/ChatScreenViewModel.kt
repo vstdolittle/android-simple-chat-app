@@ -5,6 +5,8 @@ import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
 
 class ChatScreenViewModel : ViewModel() {
+    @Inject
+    lateinit var repo : FirebaseModule
 
     class Request(aParam1: String, aParam2: String) {
         val param1: String = aParam1
