@@ -1,6 +1,11 @@
 package com.victor.simplechatapp
 
-class ChatScreenViewModel {
+import androidx.lifecycle.ViewModel
+import dagger.hilt.android.lifecycle.HiltViewModel
+import javax.inject.Inject
+
+class ChatScreenViewModel : ViewModel() {
+
     class Request(aParam1: String, aParam2: String) {
         val param1: String = aParam1
         val param2: String = aParam2

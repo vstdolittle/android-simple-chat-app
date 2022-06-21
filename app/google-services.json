@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "234774096876",
+    "project_id": "norse-demo-chat-app",
+    "storage_bucket": "norse-demo-chat-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:234774096876:android:f6d32831ec3ee43e45aec9",
+        "android_client_info": {
+          "package_name": "com.victor.simplechatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "234774096876-jkgqjihaq9904vork0jicgti34gomnrs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuIV2ZD868H_1tQnZljid0Qq9yQJ05PFo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "234774096876-jkgqjihaq9904vork0jicgti34gomnrs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

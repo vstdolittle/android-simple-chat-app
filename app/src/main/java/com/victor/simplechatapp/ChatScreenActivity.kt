@@ -8,12 +8,15 @@ import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
 import com.victor.simplechatapp.databinding.ActivityChatScreenBinding
+import dagger.hilt.android.AndroidEntryPoint
 import viper.test.sampleapp.ChatScreenRouter
 
+@AndroidEntryPoint
 class ChatScreenActivity : AppCompatActivity(), ChatScreenView {
 
     lateinit var interactor: ChatScreenInteractor
     lateinit var router: ChatScreenRouter
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_chat_screen)
